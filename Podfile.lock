@@ -1,0 +1,67 @@
+PODS:
+  - BluemixObjectStorage (1.0.0):
+    - BMSCore (~> 2.0)
+  - BMSAnalyticsAPI (2.2.0)
+  - BMSCore (2.3.1):
+    - BMSAnalyticsAPI (~> 2.2)
+  - CocoaAsyncSocket (7.5.1):
+    - CocoaAsyncSocket/GCD (= 7.5.1)
+  - CocoaAsyncSocket/GCD (7.5.1)
+  - CocoaMQTT (1.0.11):
+    - CocoaAsyncSocket (~> 7.5.1)
+    - MSWeakTimer (~> 1.1.0)
+  - ISO8601DateFormatterValueTransformer (0.6.1):
+    - RKValueTransformers (~> 1.1.0)
+  - JSQMessagesViewController (7.3.4):
+    - JSQSystemSoundPlayer (~> 2.0.1)
+  - JSQSystemSoundPlayer (2.0.1)
+  - MSWeakTimer (1.1.0)
+  - RestKit (0.27.2):
+    - RestKit/Core (= 0.27.2)
+  - RestKit/Core (0.27.2):
+    - RestKit/CoreData
+    - RestKit/Network
+    - RestKit/ObjectMapping
+  - RestKit/CoreData (0.27.2):
+    - RestKit/ObjectMapping
+  - RestKit/Network (0.27.2):
+    - RestKit/ObjectMapping
+    - RestKit/Support
+    - SOCKit
+  - RestKit/ObjectMapping (0.27.2):
+    - ISO8601DateFormatterValueTransformer (~> 0.6.1)
+    - RestKit/Support
+    - RKValueTransformers (~> 1.1.0)
+  - RestKit/Support (0.27.2):
+    - TransitionKit (~> 2.2)
+  - RKValueTransformers (1.1.3)
+  - SOCKit (1.1)
+  - SwiftyJSON (3.1.4)
+  - TransitionKit (2.2.1)
+
+DEPENDENCIES:
+  - BluemixObjectStorage
+  - CocoaMQTT
+  - JSQMessagesViewController
+  - RestKit
+  - SwiftyJSON
+
+SPEC CHECKSUMS:
+  BluemixObjectStorage: b53cd65e04694f2b6d3cda6b764037fe99b2ee7e
+  BMSAnalyticsAPI: 2dae02bc3321b944ae947a7d2f0f009d8035f8e7
+  BMSCore: 59a1a6769d398f55b8bd83be647e084812b924e0
+  CocoaAsyncSocket: e0a7e93b2ffa411592ff87e58524fbbc9b95b4fa
+  CocoaMQTT: 157db54cd2c7f63ff6e2e15190bbd9be7a9affcc
+  ISO8601DateFormatterValueTransformer: 52da467d6ec899d6aedda8e48280ac92e8ee97e6
+  JSQMessagesViewController: 39fed975e3c9f8eba7292071e29eeb541d105e66
+  JSQSystemSoundPlayer: c5850e77a4363ffd374cd851154b9af93264ed8d
+  MSWeakTimer: 9426150f933b80ed3acf3f6d228e4b61f0e303c8
+  RestKit: 556c913b0640c5bc5a9cb972361504e3ed628a1d
+  RKValueTransformers: e5ed67e3811229b616fe01bddeeafe3bb337b1b9
+  SOCKit: c7376ac262bea9115b8f749358f762522a47d392
+  SwiftyJSON: c2842d878f95482ffceec5709abc3d05680c0220
+  TransitionKit: 9ceccda4cd0cdc0a05ef85eb235e5a3292c3c250
+
+PODFILE CHECKSUM: b597e6251185561d19b6117de8f0d5aaeb6056ac
+
+COCOAPODS: 1.4.0
